@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+     /*Hide horizontal scrollbar  */
+    background-color: #F5F5F5;
+    font-family: Gilroy-Light;
+
+  }
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(Gilroy-Light.otf);
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    /* flex-direction: column; */
+}
+
+.navbar ul{
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    margin-left :8em ;
+    margin-top: 1.2em; */
+}
+.navbar ul li{
+    /* padding: 1.5em; */
+    list-style: none;
+}
+.navlist{
+    margin-left: 8rem;
+}
+.navbar ul li a{
+    display: block;
+    padding: 2.6rem 1.3rem;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+/* .navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+} */
+.navlist li a:hover{
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mobiles{
+    visibility: hidden;
+    /* width: 100vw; */
+    /* width: 100vw; */
+    position: absolute;
+    top:-1rem;
+    /* z-index: -1; */
+}
+
+.logo1{
+    height: 33px;
+    width: 240px;
+    margin-left: 3.5em;
+    margin-top: 2em;
+}
+
+.bgone{
+    width: 100vw;
+    position: relative;
+    top:-3em;
+    z-index: -1;
+}
+.bgtext{
+    position:absolute;
+    top: 6.5em;
+    right: 11em;
+}
+.bgtext h1{
+    padding: 0.1em;
+}
+.skin{
+    margin-top: 0.3em;
+    margin-left:5.6em;
+    font-size: 2.1em;
+}
+#shopnow{
+    background-color: black;
+    color: white;
+    height:3em;
+    width: 9.5em;
+    font-size: 1.2em;
+    margin-left: 10em;
+    margin-top: 2em;
+    cursor: pointer;
+
+}
+.protext {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.proimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proimg img{
+    padding: 1rem 4rem;
+}
+.threeinone img{
+    position: relative;
+    top: -4px;
+}
+.threeinone h3{
+    padding: 0.5rem 0; 
+}
+.price1{
+    margin-left: 10rem;
+}
+.des1{
+    margin-left: 6.3rem;
+    margin-bottom: 1.2rem;
+}
+.facehy h3{
+    padding: 0.5rem 0; 
+}
+.price2{
+    margin-left: 10.8rem;
+}
+.des2{
+    margin-left: 4.5rem;
+}
+.buy{
+    background-color: #ADDCA7;
+    font-size: 1rem;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 10rem;
+    border: none;
+    margin: 0 43rem;
+}
+.yes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+    
+}
+.para1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+    /* font-size: 2rem; */
+}
+
+.gifs4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gifs4 img{
+    padding: 1.5rem 3rem;
+}
+.toxicgif{
+    height: 11rem;
+    width: 11rem;
+}
+.paragif{
+    height: 11rem;
+    width: 11rem;
+
+}
+.animalgif{
+    height: 11rem;
+    width: 11rem;
+}
+.sulphategif{
+    height: 11rem;
+    width: 11rem;
+}
+.samegif1{
+    margin-top: 0;
+    margin-left: 4rem;
+}
+.samegif2{
+    margin-left: 6rem;
+}
+.samegif3{
+    margin-left: 4rem;
+}
+.samegif4{
+    margin-left: 6rem;
+}
+
+.welove{
+    margin-left: 20rem ;
+    margin-top: 2rem;
+    height: fit-content;
+    width: fit-content;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+
+}
+.welove p{
+    padding: 1.5rem 1.5rem;
+    font-size: 1.1rem;
+}
+.madeof{
+    margin-top: 1.5rem;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2E6EF;
+}
+.madeof h1{
+    font-size: 2.7rem;
+}
+.madeof p{
+    line-height: 1.8;
+    margin-top: 1.2rem;
+    margin-right: 9rem;
+font-size: 1rem ;
+}
+.madeof img{
+    height: 42rem;
+    margin-right: 4rem;
+}
+.madeof button{
+    height: 2.7rem;
+    width: 8rem;
+    background: transparent;
+    margin-top: 2rem;
+    /* border: 2rem; */
+}
+.effort{
+    background-color: #F4EEE6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.effort img{
+    height: 42rem;
+    padding: 5rem 0;
+    position: relative;
+    right: 5rem;
+}
+.effort h1{
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+}
+.effort p{
+    line-height: 1.8;
+    /* margin-top: 1.2rem; */
+    /* margin-right: 9rem; */
+    font-size: 1.2rem ;
+}
+.effort button{
+    height: 2.7rem;
+    width: 8rem;
+    background: transparent;
+    margin-top: 2rem;
+    /* border: 2rem; */
+}
+
+/* @media only screen and (max-width: 600px) {   
+    body {     background-color: black;   
+    }
+} */

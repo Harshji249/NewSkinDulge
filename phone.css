@@ -1,0 +1,194 @@
+
+body{
+    overflow-x: hidden;
+}
+.head{
+    width: 100vw !important;
+}
+.navbar{
+    flex-direction: column;
+}
+.logo1{
+    position: relative;
+    height: 1rem !important;
+    width: 7rem !important;
+    left:1.1rem;
+    top: -1rem;
+    overflow: hidden !important;
+}
+.navlist{
+    /* background-color: black; */
+    position: relative;
+    left: -7.7rem;
+    top: -2.5rem;
+    margin-left: 0%;
+}
+.bgone{
+    margin-top: 7rem;
+    width: 100vw !important;
+    /* height: 30vh !important; */
+    position: relative;
+    right: 4rem;
+    /* right:0rem */
+}
+.open {
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    font-size: 0.5rem;
+}
+.refreshed {
+    position: relative;
+    top: 0.8rem;
+    left:0.1rem;
+    font-size: 0.5rem;
+}
+.skin{
+    position: relative;
+    top: 0.4rem;
+    right: 2.3rem;
+    font-size: 12px !important;
+}
+
+
+.navbar ul li a {
+    padding: 2.6rem 0.3rem !important;
+    font-size: 0.6rem !important;
+    /* display: none !important; */
+}
+
+#shopnow{
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    height: 1rem !important;
+    width: 3rem !important;
+    font-size: 0.5rem !important ;
+}
+
+.protext h1{
+    font-size: 1rem;
+    position: relative;
+    top: -2rem;
+    right: 5.8rem;
+    /* padding: -100px !important; */
+}
+.proimg{
+    flex-direction: column;
+}
+.proimg img{
+    padding: 1rem 0rem !important;
+}
+.threeinone{
+    position: relative;
+    right: 5.8rem;
+}
+.threeinone img{
+    /* position: relative; */
+    /* right: 4rem; */
+    display: block;
+    height: 15rem;
+    width: 10rem;
+}
+.threeinone h3{
+    padding: 0.2rem 0 !important; 
+}
+.price1{
+    margin-left: 3rem !important;
+    font-size: 0.9rem;
+}
+.des1{
+    margin-left: 0rem !important;
+    font-size: 0.9rem;
+    /* justify-content: center; */
+    /* text-align: center !important; */
+    margin-bottom: 1.2rem;
+}
+.facehy img{
+    display: block;
+    height: 15rem;
+    width: 10rem;
+}
+.facehy{
+    position: relative;
+    right:4rem;
+}
+.facehy h3{
+    padding: 0.2rem 0 !important; 
+}
+.price2{
+    margin-left: 3rem !important;
+    font-size: 0.9rem;
+    /* width: fit-content !important; */
+}
+.des2{
+    margin-left: 0rem !important;
+    position: relative !important;
+    right: 1.7rem !important;
+    font-size: 0.9rem;
+    /* margin-right: 2rem !important; */
+}
+.buy{
+    position: relative !important;
+    right: 40rem !important;
+    margin-right: 0rem !important;
+    /* margin-left:1rem !important; */
+    margin-top: 1rem !important;
+}
+.yes{
+    font-size: 0.5rem !important;
+    margin-top: 1rem !important;
+    background-color: #97A3C3;
+    padding: 1rem 0;
+    display: block !important;
+    /* width: 100vw !important; */
+    /* text-align: center !important; */
+}
+.yes h1{
+    position: relative;
+    left: 1.2rem;
+}
+.para1{
+    padding: 1rem 1rem !important;
+}
+.gifs4{
+    flex-direction: column;
+}
+.welove{
+    margin-left: 1.5rem !important ;
+    margin-top: 2rem;
+    /* font-size: 4rem !important; */
+    height: 6rem !important;
+    width: 20rem !important;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+
+}
+.welove p{
+    padding: 1em 1rem !important;
+    font-size: 0.8rem !important;
+}
+.madeof{
+    flex-direction: column;
+}
+.madeof button{
+    display: none;
+}
+.madeof h1{
+    font-size:  1.5rem !important;
+    margin-left: 1rem;
+}
+.madeof br{
+    /* display: inline; */
+    display: none !important;
+    /* margin-left: 1rem  ; */
+}
+.madeof p{
+    font-size: 1rem !important;
+    margin-left: 1rem;
+    margin-right: 0rem !important;
+}
+
+.effort{
+    flex-direction: column;
+}
